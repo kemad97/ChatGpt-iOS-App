@@ -11,7 +11,7 @@ struct ChatView: View {
                 VStack(spacing: 0) {
                     if viewModel.messages.isEmpty {
                         ZStack{
-                            Text("What's on the agenda today?")
+                            Text("What's on your  mind today?")
                                 .frame(maxWidth: .infinity, maxHeight: 1000, alignment: .center)
                                 .foregroundColor(.gray)
                         }
